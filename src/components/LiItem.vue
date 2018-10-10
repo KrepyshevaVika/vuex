@@ -58,16 +58,20 @@ export default {
   display: flex;
   align-items: center;
   height: 40px;
-  /*position: relative;*/
+  position: relative;
+  margin-left: 15px;
 }
-
+/*
 .icon + .text {
   padding-right: 50px;
-}
+}*/
 
 .item .icon{
   transition: transform .5s ease, color .5s ease;
   font-size: 40px;
+  margin-left: -20px;
+ /* position: absolute;
+  left: -15px;*/
 }  
 
 
